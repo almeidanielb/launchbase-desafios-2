@@ -1,0 +1,98 @@
+:root {
+    --color-gray: gray
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: rgb(41, 41, 65);
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+.links {
+    text-align: center;
+}
+.links a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 32px;
+    margin: 30px;
+    opacity: 0.85;
+}
+.links a:hover {
+    color: #cccccc;
+    transition: color 300ms;
+}
+
+#caixa1 {
+    text-align: center;
+}
+
+#caixa1 img {
+    height: 280px;
+    border-radius: 250%;
+    border: 5px solid var(--color-gray);
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+#caixa1 h2 {
+    font-size: 36px;
+    font-weight: 100;
+    color: white;
+    opacity: 0.9;
+    line-height: 46px;
+    text-decoration: none;    
+}
+
+#caixa1 p {
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+    opacity: 0.9;
+    line-height: 22px;
+    text-decoration: none;   
+
+}
+
+#caixa2 {
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    color: white;
+    opacity: 0.9;    
+}
+
+#caixa2 h2 {
+    padding-bottom: 7px;
+    border-bottom: solid 1px var(--color-gray);
+    max-width: 300px;
+    margin: 12px auto;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 100;
+}
+
+#caixa2 ul {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 100;
+}
+
+#links-redes a {
+    font-size: 16px;
+    margin: 8px;
+    border-bottom: 1px solid var(--color-gray);
+}
+
+
+
