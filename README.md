@@ -10,7 +10,7 @@
 
 <p align="center">
 
-  <a href="LICENSE" >
+  <a href="https://github.com/rocketseat-education/bootcamp-launchbase-desafios-02/blob/master/LICENSE" >
     <img alt="License" src="https://img.shields.io/badge/license-MIT-%23F8952D">
   </a>
 
