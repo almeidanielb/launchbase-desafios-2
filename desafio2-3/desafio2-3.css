@@ -152,10 +152,10 @@ header {
 
 .modal {
     background-color: var(--color-back);
-    width: 90%;
-    height: 90%;
-    margin: 5vh auto;
+    width: 100%;
+    height: 100%;
     position: relative;
+    /* margin: 5vh auto; */
 }
 
 .modal .close-modal {
@@ -175,36 +175,42 @@ header {
 }
 
 
-/*=== MODAL-OVERLAY ACTIVE WINDOWED===*/
-
-.modal-overlay.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-iframe {
-    width: 100%;
-    height: 90%;
-    position: absolute;
-    top: 5%;
-}
-
 /*=== MODAL-OVERLAY ACTIVE FULLSCREEN===*/
 
 .modal-overlay.active.fullscreen {
     opacity: 1;
     visibility: visible;
-    width: 1600px;
-    /*height: auto; */
-    top: 0px;
-    left: 0px;
-    margin: 0px auto;
-    position: absolute;
 }
 
 iframe {
     width: 100%;
     height: 90%;
-    position: absolute;
+    position: relative;
     top: 5%;
 }
+
+/*=== MODAL-OVERLAY ACTIVE WINDOWED===*/
+
+.modal-overlay.active.windowed {
+    opacity: 1;
+    visibility: visible;
+    width: 75% ;
+    height: 75% ;
+    margin: 10%;
+    position: fixed;
+    z-index: 9999;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 40px;
+}
+
+/* 
+.modal-overlay.active.windowed -> inicio com essa classe, e quando clicar no botão de maximizar, se contem windowed, remove e coloca fullscreen, e se não, remove
+fullscreen e coloca windowed (lógica).
+
+No fullscreen, largura e altura 100%, e no modo janela ~75%. 
+*/
