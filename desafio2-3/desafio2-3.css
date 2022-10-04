@@ -212,5 +212,5 @@ iframe {
 .modal-overlay.active.windowed -> inicio com essa classe, e quando clicar no botão de maximizar, se contem windowed, remove e coloca fullscreen, e se não, remove
 fullscreen e coloca windowed (lógica).
 
-No fullscreen, largura e altura 100%, e no modo janela ~75%. 
+No fullscreen, largura e altura 100%, e no modo janela ~80%. 
 */
