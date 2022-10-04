@@ -12,9 +12,8 @@ for (let card of cards) {
 
 document.querySelector(".close-modal").addEventListener("click", function() {
     //part 1
-    //se contains fullscreen
+    //se conter fullscreen
         //remover fullscreen
-        //.modal-overlay.windowed.active.windowed
     modalOverlay.classList.remove("active")
     if (modalOverlay.classList.contains("windowed")) {
         modalOverlay.classList.remove("windowed")
